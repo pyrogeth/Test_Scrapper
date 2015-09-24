@@ -3,7 +3,7 @@
 ###################################################################################
 
 import scraperwiki
-import simplejson
+import json as simplejson
 import urllib2
 
 # Change QUERY to your search term of choice. 
