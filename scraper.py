@@ -44,7 +44,7 @@ while 1:
             data['from_user'] = result['from_user']
             data['created_at'] = result['created_at']
             # save records to the datastore
-            scraperwiki.datastore.save(["id"], data)
+            data.sqlite.save(["id"], data)
         page = page + 1
     except:
         print str(page) + ' pages scraped'
