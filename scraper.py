@@ -23,7 +23,7 @@
 # called "data.sqlite" in the current working directory which has at least a table
 # called "data".
 import scraperwiki
-import simplejson
+import lxml.html
 
 # retrieve a page
 base_url = 'http://search.twitter.com/search.json?q='
